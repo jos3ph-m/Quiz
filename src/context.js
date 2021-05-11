@@ -18,6 +18,8 @@ const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [waiting, setWaiting] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [questions, setQuestions] = useState([]);
+
   return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
 };
 // make sure use
