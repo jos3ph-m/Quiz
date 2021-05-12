@@ -12,6 +12,7 @@ function App() {
   if (loading) {
     return <Loading />;
   }
+  return <main>quiz app</main>;
 }
 
 export default App;
