@@ -1,6 +1,6 @@
 # Quiz
 
-Welcome to my React based Quiz app using Axios!
+Welcome to my React based Quiz app using Axios.
 
 #### Getting started:
 
