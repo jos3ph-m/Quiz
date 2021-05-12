@@ -27,7 +27,15 @@ const AppProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ waiting, loading, questions, index, correct, error }}
+      value={{
+        waiting,
+        loading,
+        questions,
+        index,
+        correct,
+        error,
+        isModalOpen,
+      }}
     >
       {children}
     </AppContext.Provider>
