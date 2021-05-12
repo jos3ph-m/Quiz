@@ -9,6 +9,9 @@ function App() {
   if (waiting) {
     return <SetupForm />;
   }
+  if (loading) {
+    return <Loading />;
+  }
 }
 
 export default App;
