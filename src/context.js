@@ -25,6 +25,11 @@ const AppProvider = ({ children }) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const fetchQuestions = async (url) => {
+    setLoading(true);
+    setWaiting(false);
+  };
+
   return (
     <AppContext.Provider
       value={{
