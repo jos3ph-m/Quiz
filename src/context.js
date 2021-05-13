@@ -36,6 +36,8 @@ const AppProvider = ({ children }) => {
         setLoading(false);
         setWaiting(false);
         setError(false);
+      } else {
+        setWaiting(true);
       }
     } else {
       setWaiting(true);
