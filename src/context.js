@@ -30,6 +30,7 @@ const AppProvider = ({ children }) => {
     setWaiting(false);
     const response = await axios(url).catch((err) => console.log(err));
     if (response) {
+      const data = response.data.results;
     } else {
       setWaiting(true);
     }
