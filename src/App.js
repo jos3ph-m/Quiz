@@ -13,6 +13,7 @@ function App() {
     return <Loading />;
   }
   const { question, incorrect_answers, correct_answers } = questions[0];
+  const answers = [...incorrect_answers, correct_answer];
   return <main>quiz app</main>;
 }
 
