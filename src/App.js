@@ -12,7 +12,7 @@ function App() {
   if (loading) {
     return <Loading />;
   }
-  console.log(questions[0]);
+  const { question, incorrect_answers, correct_answers } = questions[0];
   return <main>quiz app</main>;
 }
 
