@@ -25,7 +25,7 @@ function App() {
         </p>
         <article className="container">
           <h2 dangerouslySetInnerHTML={{ __html: question }} />
-          <div className="btn-container">{}</div>
+          <div className="btn-container">{correct.map((answer) => {})}</div>
         </article>
       </section>
     </main>
