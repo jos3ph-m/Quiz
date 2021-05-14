@@ -25,7 +25,17 @@ function App() {
         </p>
         <article className="container">
           <h2 dangerouslySetInnerHTML={{ __html: question }} />
-          <div className="btn-container">{correct.map((answer) => {})}</div>
+          <div className="btn-container">
+            {correct.map((answer, index) => {
+              return (
+                <button
+                  key={index}
+                  className="answer-btn"
+                  dangerouslySetInnerHTML={{ __html: answer }}
+                />
+              );
+            })}
+          </div>
         </article>
       </section>
     </main>
