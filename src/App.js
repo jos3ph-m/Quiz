@@ -24,7 +24,7 @@ function App() {
           correct answers : {correct}/{index}
         </p>
         <article className="container">
-          <h2 dangerouslySetInnerHTML />
+          <h2 dangerouslySetInnerHTML={{ __html: question }} />
         </article>
       </section>
     </main>
