@@ -22,6 +22,7 @@ function App() {
         <p className="correct-answers">
           correct answers : {correct}/{index}
         </p>
+        <article className="container"></article>
       </section>
     </main>
   );
