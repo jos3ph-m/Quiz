@@ -15,7 +15,11 @@ function App() {
   const { question, incorrect_answers, correct_answer } = questions[0];
   const answers = [...incorrect_answers, correct_answer];
 
-  return <main></main>;
+  return (
+    <main>
+      <Modal />
+    </main>
+  );
 }
 
 export default App;
