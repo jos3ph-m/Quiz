@@ -37,7 +37,7 @@ function App() {
             })}
           </div>
         </article>
-        <button></button>
+        <button className="next-question"></button>
       </section>
     </main>
   );
