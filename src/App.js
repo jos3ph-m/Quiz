@@ -38,7 +38,9 @@ function App() {
             })}
           </div>
         </article>
-        <button className="next-question">next question</button>
+        <button className="next-question" onClick={nextQuestion}>
+          next question
+        </button>
       </section>
     </main>
   );
