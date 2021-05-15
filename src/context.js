@@ -46,7 +46,9 @@ const AppProvider = ({ children }) => {
   };
 
   nextQuestion = () => {
-    setIndex(() => {});
+    setIndex((oldIndex) => {
+      const index = oldIndex + 1;
+    });
   };
 
   useEffect(() => {
