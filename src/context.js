@@ -45,6 +45,10 @@ const AppProvider = ({ children }) => {
     }
   };
 
+  nextQuestion = () => {
+    setIndex(() => {});
+  };
+
   useEffect(() => {
     fetchQuestions(tempUrl);
   }, []);
