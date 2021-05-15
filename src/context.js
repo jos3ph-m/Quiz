@@ -48,6 +48,7 @@ const AppProvider = ({ children }) => {
   nextQuestion = () => {
     setIndex((oldIndex) => {
       const index = oldIndex + 1;
+      return index;
     });
   };
 
@@ -65,6 +66,7 @@ const AppProvider = ({ children }) => {
         correct,
         error,
         isModalOpen,
+        nextQuestion,
       }}
     >
       {children}
