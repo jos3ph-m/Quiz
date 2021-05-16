@@ -70,6 +70,7 @@ const AppProvider = ({ children }) => {
   };
 
   const closeModal = () => {
+    setWaiting(true);
     setIsModalOpen(false);
   };
 
