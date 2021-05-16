@@ -65,7 +65,9 @@ const AppProvider = ({ children }) => {
     nextQuestion();
   };
 
-  const openModal = () => {};
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
 
   useEffect(() => {
     fetchQuestions(tempUrl);
