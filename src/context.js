@@ -58,6 +58,8 @@ const AppProvider = ({ children }) => {
     });
   };
 
+  const checkAnswer = (value) => {};
+
   useEffect(() => {
     fetchQuestions(tempUrl);
   }, []);
