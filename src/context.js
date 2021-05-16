@@ -58,7 +58,11 @@ const AppProvider = ({ children }) => {
     });
   };
 
-  const checkAnswer = (value) => {};
+  const checkAnswer = (value) => {
+    if (value) {
+      setCorrect((oldState) => oldState + 1);
+    }
+  };
 
   useEffect(() => {
     fetchQuestions(tempUrl);
