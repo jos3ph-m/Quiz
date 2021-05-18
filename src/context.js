@@ -100,6 +100,9 @@ const AppProvider = ({ children }) => {
         nextQuestion,
         checkAnswer,
         closeModal,
+        quiz,
+        handleChange,
+        handleSubmit,
       }}
     >
       {children}
