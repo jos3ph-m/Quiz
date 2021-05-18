@@ -11,7 +11,7 @@ const Modal = () => {
     >
       <div className="modal-content">
         <h2>congrats!</h2>
-        <p>You answered questions correctly</p>
+        <p>You answered {} questions correctly</p>
         <button className="close-btn" onClick={closeModal}>
           play again
         </button>
