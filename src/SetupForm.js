@@ -3,7 +3,13 @@ import { useGlobalContext } from './context';
 
 const SetupForm = () => {
   const { quiz, handleChange, handleSubmit, error } = useGlobalContext();
-  return <h2>setup form</h2>;
+  return (
+    <main>
+      <section className="quiz quiz-small">
+        <form className="setup-form"></form>
+      </section>
+    </main>
+  );
 };
 
 export default SetupForm;
