@@ -83,6 +83,10 @@ const AppProvider = ({ children }) => {
     console.log(e);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <AppContext.Provider
       value={{
