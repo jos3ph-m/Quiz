@@ -79,6 +79,8 @@ const AppProvider = ({ children }) => {
     setIsModalOpen(false);
   };
 
+  const handleChange = (e) => {};
+
   return (
     <AppContext.Provider
       value={{
