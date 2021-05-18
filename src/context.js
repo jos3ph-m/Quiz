@@ -22,7 +22,7 @@ const AppProvider = ({ children }) => {
   const [index, setIndex] = useState(0);
   const [correct, setCorrect] = useState(0);
   const [error, setError] = useState(false);
-
+  const [quiz, setQuiz] = useState({});
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const fetchQuestions = async (url) => {
