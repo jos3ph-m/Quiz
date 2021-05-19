@@ -18,6 +18,7 @@ const SetupForm = () => {
               onChange={handleChange}
               className="form-input"
               min={1}
+              max={50}
             />
           </div>
         </form>
