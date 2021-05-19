@@ -16,6 +16,7 @@ const SetupForm = () => {
               id="amount"
               value={quiz.amount}
               onChange={handleChange}
+              className="form-input"
             />
           </div>
         </form>
