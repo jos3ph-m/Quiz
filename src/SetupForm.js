@@ -10,7 +10,13 @@ const SetupForm = () => {
           {/*amount*/}
           <div className="form-control">
             <label htmlFor="amount">number of questions</label>
-            <input type="text" name="amount" id="amount" value={quiz.amount} />
+            <input
+              type="text"
+              name="amount"
+              id="amount"
+              value={quiz.amount}
+              onChange={handleChange}
+            />
           </div>
         </form>
       </section>
