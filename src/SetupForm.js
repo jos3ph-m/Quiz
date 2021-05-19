@@ -6,7 +6,7 @@ const SetupForm = () => {
   return (
     <main>
       <section className="quiz quiz-small">
-        <form className="setup-form"></form>
+        <form className="setup-form">{/*amount*/}</form>
       </section>
     </main>
   );
