@@ -29,6 +29,8 @@ const SetupForm = () => {
               name="category"
               id="category"
               className="form-input"
+              value={quiz.category}
+              onChange={handleChange}
             ></select>
           </div>
           {error && (
