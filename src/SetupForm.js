@@ -22,6 +22,7 @@ const SetupForm = () => {
               max={50}
             />
           </div>
+          <div className="form-control"></div>
           {error && (
             <p className="error">
               can't generate questions, please try different options
