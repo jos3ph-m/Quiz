@@ -23,7 +23,9 @@ const SetupForm = () => {
             />
           </div>
           {/* category */}
-          <div className="form-control"></div>
+          <div className="form-control">
+            <label htmlFor=""></label>
+          </div>
           {error && (
             <p className="error">
               can't generate questions, please try different options
