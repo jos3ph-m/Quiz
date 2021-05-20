@@ -22,6 +22,7 @@ const SetupForm = () => {
               max={50}
             />
           </div>
+          {/* category */}
           <div className="form-control"></div>
           {error && (
             <p className="error">
