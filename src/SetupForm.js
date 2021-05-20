@@ -39,12 +39,12 @@ const SetupForm = () => {
           </div>
           {/* difficulty */}
           <div className="form-control">
-            <label htmlFor="category">category</label>
+            <label htmlFor="difficulty">difficulty</label>
             <select
-              name="category"
-              id="category"
+              name="difficulty"
+              id="difficulty"
               className="form-input"
-              value={quiz.category}
+              value={quiz.difficulty}
               onChange={handleChange}
             >
               <option value="sports">sports</option>
