@@ -87,6 +87,9 @@ const AppProvider = ({ children }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const tempUrl =
+      'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple';
   };
 
   return (
