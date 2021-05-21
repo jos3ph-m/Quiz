@@ -23,7 +23,7 @@ function App() {
 
   const { question, incorrect_answers, correct_answer } = questions[index];
   // const answers = [...incorrect_answers, correct_answer];
-  let answers = [];
+  let answers = [...incorrect_answers];
 
   return (
     <main>
