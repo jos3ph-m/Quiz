@@ -28,7 +28,8 @@ function App() {
   if (tempIndex === 3) {
     answers.push(correct_answer);
   } else {
-    answer.push(answers[tempIndex]);
+    answers.push(answers[tempIndex]);
+    answers[tempIndex] = correct_answer;
   }
 
   return (
