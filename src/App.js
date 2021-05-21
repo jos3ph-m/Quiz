@@ -27,6 +27,8 @@ function App() {
   const tempIndex = Math.floor(Math.random() * 4);
   if (tempIndex === 3) {
     answers.push(correct_answer);
+  } else {
+    answer.push(answers[tempIndex]);
   }
 
   return (
